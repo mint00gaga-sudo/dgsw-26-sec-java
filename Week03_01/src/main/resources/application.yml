@@ -5,3 +5,5 @@ spring:
       hibernate:
         format_sql: true
     defer-datasource-initialization: true
+server:
+  port: 9090

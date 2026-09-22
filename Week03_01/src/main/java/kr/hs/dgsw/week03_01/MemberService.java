@@ -6,30 +6,29 @@ import org.springframework.util.StringUtils;
 
 import java.util.List;
 
-/** 클라이언트가 요청한 작업을 수행.
- * 1. 데이터베이스에서 멤버정보 조회해서 Controller한테 전달. */
-@Service
-public class MemberService {
-    @Autowired
-    MemberRepository memberRepository;
 
-    public List<Member> getAllMembers() {
-        return memberRepository.findAll();
-    }
-
-    public Member saveMember(Member member) {
-        String name
-          = member.getName() == null ? null : member.getName().trim();
-
-        if( StringUtils.hasText(name) == false) {
-            return null;
-        }
-        member.setName(name);
-        return memberRepository.save(member);
-    }
-
-
+public interface MemberService {
+    List<Member> getAllMembers() ;
+    Member saveMember(Member member) ;
+    /** 데이터베이스에서 사용자가 전달한 id로 한놈 조회. */
+    Member getMemberById(Long id) ;
+    boolean deleteMemberById(Long id) ;
 }
+
+
+/**
+ * 2026.09.22 - 코드 리팩토링
+ * 1. Service 리팩토링
+ * 2. 생성자 주입.
+ * 3. Entity클래서 롬복.
+ *
+ * MemberService 클래스
+ *  --> 인터페이스(모양, 틀, 구조) + 클래스( 실제 동작 )
+ *
+ * 컨트롤러에서 Service클래스를 호출
+ *  --> Service인터페이스 호출.
+ * */
+
 
 
 
