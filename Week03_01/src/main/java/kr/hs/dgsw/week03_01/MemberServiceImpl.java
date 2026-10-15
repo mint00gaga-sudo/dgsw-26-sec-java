@@ -22,6 +22,7 @@ public class MemberServiceImpl implements MemberService {
     public Member saveMember(Member member) {
         String name
           = member.getName() == null ? null : member.getName().trim();
+        /**    __달봉__  __달_봉__  --> 달봉, 달_봉  */
 
         if( StringUtils.hasText(name) == false) {
             return null;
