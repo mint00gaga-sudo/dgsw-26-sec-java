@@ -64,7 +64,40 @@ class CourseRepositoryTest {
          * 람다 : Function, Predicate, Consumer, Supplier
          * */
     }
+
+
+    @Test
+    @Sql("/insert-courses.sql")
+    void findByNameAndCategory_01(){
+        List<Course> result
+                = cRep.findByNameOrCategory_01(
+                        "Java Fundamentals",
+                        "Python");
+        assertThat(result)
+                .hasSize(3)
+                .anyMatch( c -> c.getCategory().equals("Python") )
+                .anySatisfy(c -> {
+                    c.getCategory().equals("Python");
+                });
+        assertThat(result)
+                .extracting(Course::getCategory)
+                .doesNotHaveDuplicates();
+
+
+    }
+
+    @Test
+    @Sql("/insert-courses.sql")
+    void findByCategoryAndMinRating_01(){
+
+    }
+
 }
+
+
+
+
+
 
 
 
