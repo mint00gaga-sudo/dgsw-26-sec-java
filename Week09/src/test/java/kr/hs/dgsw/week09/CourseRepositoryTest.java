@@ -40,6 +40,30 @@ class CourseRepositoryTest {
                     assertThat(c.getRating()).isGreaterThanOrEqualTo(5);
                 });
     }
+
+
+    @Test
+    @Sql("/insert-courses.sql")
+    void findByCategoryNative(){
+        List<Course> result
+                = cRep.findByCategoryNative("Java");
+        assertThat(result)
+                .isNotEmpty()
+                .allSatisfy(c -> {
+
+                });
+
+        assertThat(result)
+                .allMatch(
+                        c->
+                                c.getCategory().equals("Java")
+                                        && c.getRating() >= 4
+                );
+
+        /**
+         * 람다 : Function, Predicate, Consumer, Supplier
+         * */
+    }
 }
 
 
