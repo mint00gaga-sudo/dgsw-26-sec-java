@@ -1,0 +1,129 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="6ba190a5-9b03-49e3-b0ed-d90f722fece5" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/../Week07_Pratice/.gitattributes" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Week07_Pratice/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Week07_Pratice/build.gradle" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Week07_Pratice/gradle/wrapper/gradle-wrapper.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Week07_Pratice/gradle/wrapper/gradle-wrapper.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Week07_Pratice/gradlew" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Week07_Pratice/gradlew.bat" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Week07_Pratice/settings.gradle" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Week07_Pratice/src/main/java/kr/hs/dgsw/week07_pratice/Week07PraticeApplication.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Week07_Pratice/src/main/java/kr/hs/dgsw/week07_pratice/controller/MemberController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Week07_Pratice/src/main/java/kr/hs/dgsw/week07_pratice/domain/Member.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Week07_Pratice/src/main/java/kr/hs/dgsw/week07_pratice/repository/MemberRepository.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Week07_Pratice/src/main/java/kr/hs/dgsw/week07_pratice/service/MemberService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Week07_Pratice/src/main/java/kr/hs/dgsw/week07_pratice/service/MemberServiceImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Week07_Pratice/src/main/resources/application.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Week07_Pratice/src/main/resources/data.sql" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Week07_Pratice/src/test/java/kr/hs/dgsw/week07_pratice/Week07PraticeApplicationTests.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Week08/.gitattributes" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Week08/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Week08/build.gradle" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Week08/gradle/wrapper/gradle-wrapper.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Week08/gradle/wrapper/gradle-wrapper.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Week08/gradlew" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Week08/gradlew.bat" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Week08/settings.gradle" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Week08/src/main/java/kr/hs/dgsw/week08/Lec01.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Week08/src/main/java/kr/hs/dgsw/week08/Lec02.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Week08/src/main/java/kr/hs/dgsw/week08/Member.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Week08/src/main/java/kr/hs/dgsw/week08/MemberRepository.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Week08/src/main/java/kr/hs/dgsw/week08/Member_V2.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Week08/src/main/java/kr/hs/dgsw/week08/Week08Application.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Week08/src/main/resources/application.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Week08/src/main/resources/insert-members.sql" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Week08/src/test/java/kr/hs/dgsw/week08/MemberRepositoryTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Week08/src/test/java/kr/hs/dgsw/week08/Week08ApplicationTests.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Week09/.gitattributes" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Week09/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Week09/build.gradle" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Week09/gradle/wrapper/gradle-wrapper.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Week09/gradle/wrapper/gradle-wrapper.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Week09/gradlew" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Week09/gradlew.bat" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Week09/settings.gradle" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Week09/src/main/java/kr/hs/dgsw/week09/Course.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Week09/src/main/java/kr/hs/dgsw/week09/Week09Application.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Week09/src/main/resources/application.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Week09/src/test/java/kr/hs/dgsw/week09/Week09ApplicationTests.java" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
+  </component>
+  <component name="GitHubPullRequestSearchHistory"><![CDATA[{
+  "lastFilter": {
+    "state": "OPEN",
+    "assignee": "mint00gaga-sudo"
+  }
+}]]></component>
+  <component name="GithubPullRequestsUISettings"><![CDATA[{
+  "selectedUrlAndAccountId": {
+    "url": "https://github.com/mint00gaga-sudo/dgsw-26-sec-java.git",
+    "accountId": "b90d8cd2-0e1d-4604-92fb-a12bdac1f7ab"
+  }
+}]]></component>
+  <component name="ProjectColorInfo"><![CDATA[{
+  "associatedIndex": 1
+}]]></component>
+  <component name="ProjectId" id="3MDkCRrdf4uJDYcv11vRfEZGOjh" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "RunOnceActivity.git.unshallow": "true",
+    "git-widget-placeholder": "main",
+    "kotlin-language-version-configured": "true",
+    "nodejs_package_manager_path": "npm",
+    "vue.rearranger.settings.migration": "true"
+  }
+}]]></component>
+  <component name="RunManager">
+    <configuration default="true" type="GroovyScriptRunConfiguration" factoryName="Groovy">
+      <setting name="path" value="" />
+      <setting name="vmparams" value="" />
+      <setting name="params" value="" />
+      <setting name="workDir" value="file://$PROJECT_DIR$" />
+      <setting name="debug" value="false" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+  </component>
+  <component name="SharedIndexes">
+    <attachedChunks>
+      <set>
+        <option value="bundled-jdk-9823dce3aa75-a94e463ab2e7-intellij.indexing.shared.core-IU-243.25659.59" />
+        <option value="bundled-js-predefined-d6986cc7102b-1632447f56bf-JavaScript-IU-243.25659.59" />
+      </set>
+    </attachedChunks>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="6ba190a5-9b03-49e3-b0ed-d90f722fece5" name="Changes" comment="" />
+      <created>1794892399830</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1794892399830</updated>
+      <workItem from="1794892400792" duration="213000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+</project>
